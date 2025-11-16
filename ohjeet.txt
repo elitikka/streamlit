@@ -1,0 +1,16 @@
+Tehtävänanto
+-	Käytä hyväksi aiemmin luotua LEMP-stack sovellusta CSC:n cPouta palvelussa. 
+-	Toteuta ns. Streamlit-sovellus, joka on käynnissä palveluna VPS:ssä. 
+-	Määritä Nginx serverin reverse proxy asetukset niin, että tehty Streamlit-sovellus ohjautuu näkyväksi http://sinun-vps-ip-osoite/data-analysis sivulle.
+-	Lisää pääsivulle (/) linkki, joka ohjaa tälle sivulle.
+-	Streamlit-sovellus pitäisi käyttää dataa, joka on tallennettu MySQL-tietokantaan. 
+-	Katso ohjeet "Streamlit-sovellus VPS:ään" ja "Streamlit ja Nginx reverse proxy"
+-	Muista huolehtia, että palvelut pysyvät käynnissä ja tarvittavat portit ovat auki.
+Oheisen ohjeen lisäksi:
+-	Käytä Githubia versionhallintaan 
+-	Älä lisää nimeäsi sivulle, jos haluat pysyä anonyymina vertaiselle. Palauta URL:it sivullesi ja Github-repoon (Pidä repo julkisena)
+Pisteytys:
+•	Etusivu aukeaa 1p
+•	Etusivulla on linkki joka ohjaa /data-analysis sivulle ja sivu aukeaa +1p
+•	Gittiä on käytetty +1p
+•	Streamlit-sovellus toimii ja käyttää dataa MySQL-tietokannasta +5p
