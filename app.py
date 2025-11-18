@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 def main():
-    st.title("Oulu Kaukovainio, Avg Temperature (per hour)")
+    st.title("Oulu Kaukovainio, Temperature")
 
     df = pd.read_csv("Oulu Kaukovainio_ 1.11.2025 - 17.11.2025_sade.csv")
 
@@ -20,7 +20,7 @@ def main():
         df,
         x="datetime",
         y="temp",
-        title="Hourly Average Temperature in Oulu (Kaukovainio)",
+        title="Temperature in Oulu (Kaukovainio)",
         labels={"datetime": "Date/Time", "temp": "Temperature (°C)"}
     )
 
