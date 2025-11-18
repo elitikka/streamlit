@@ -30,7 +30,7 @@ def main():
     fig = px.line(
         data,
         x='datetime',
-        y='temp',
+        y='AvgTemp',
         title="Temperature in Oulu (Kaukovainio)",
         labels={'datetime': 'Date/Time', 'AvgTemp': 'Temperature (°C)'}
     )
