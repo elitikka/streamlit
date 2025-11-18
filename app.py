@@ -21,9 +21,8 @@ def mySql():
  
 # Streamlit 
 def main(): 
-    st.title("Oulu Kaukovainio Temperature from MySQL") 
+    st.title("Temperature from MySQL") 
      
-    st.write("Oulu Kaukovainio Temperature") 
     data = mySql() 
      
     #plot data 
